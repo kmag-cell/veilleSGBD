@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SGBD et Bases de données</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" /> <!-- https://getbootstrap.com/ -->
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" /> <!-- https://fontawesome.com/ -->
+    <link href="css/templatemo-diagoona.css" rel="stylesheet" />
+<!--
+
+TemplateMo 550 Diagoona
+
+https://templatemo.com/tm-550-diagoona
+
+-->
+</head>
+
+<body>
+    <div class="tm-container">        
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    <div class="tm-site-header media">
+                        
+                        <div class="media-body">
+                            <h1 class="tm-sitename text-uppercase">SGBD</h1>
+                            <p class="tm-slogon">Systeme de gestion de base de donnée</p>
+                        </div>        
+                    </div>
+                </div>
+                <div class="tm-col-right">
+                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="index.html">Acceuil <span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="about.html">Base de données</a>
+                                </li>
+                                                           
+                            </ul>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="tm-row">
+                <div class="tm-col-left"></div>
+                <main class="tm-col-right">
+                    <section class="tm-content">
+                        <h2 class="mb-5 tm-content-title">Qu'est ce qu'un SGBD</h2>
+                        <p class="mb-5"> les systemes de gestion de bases de données sont des logiciels qui servent a stocker , à manipuler ou à gérer , et à partager des données dans une <strong>base de données</strong> en garantissant la qualité, la pérennité et la confidentialité des informations</p>
+                        <hr class="mb-5">
+                        <p class="mb-5">Un SGBD est un logiciel qui définit le modèle d’un système de base de données et constitue ainsi une composante indispensable à la création, à la gestion et à l’utilisation d’une base de donnée. Ils sont mis en place sur des concepts spécifiques des données, à mesure que la pratique de l'administrateur d'une base de données évolue.</p>                        
+                    </section>
+                    <section class="tm-content">
+                        <h2 class="mb-5 tm-content-title">Les differents éléments de SGBD</h2>
+                        <p class="mb-5">Un système de gestion de base de données est composé de différents éléments contribuant au fonctionnement optimal du logiciel. Le SGBD peut être divisé en trois éléments fondamentaux : le dictionnaire de données, le langage de définition des données et le langage de manipulation des données.</p>
+                        <li>le dictionnaire de données</li>
+                        <p class="mb-5">le dictionnaire de données (Data Dictionary) se compose d’un ensemble de métadonnées. Ces métadonnées contiennent des informations sur le contenu des différentes données des mémoires de données. ce dictionnaire contient donc toutes les informations pertinentes sur les données enregistrées dans une base de données.</p>                        
+                        <li>le langage de définition des données</li>
+                        <p class="mb-5">le langage de définition des données (LDD) ou Data Definition Language (DDL) a pour but de structurer les contenus d’une base de données. Ce langage permet de générer, modifier et supprimer les différents objets tels que les références, les relations ou les droits d’utilisateur.</p>                        
+                        <li>langage de manipulation des données</li>
+                        <p class="mb-5">le langage de manipulation des données (LMD) ou Data Manipulation Language (DML) permet d’insérer, supprimer, modifier et lire les ensembles de données contenus dans une base de données et par ailleurs permet d’extraire les données.</p>                        
+                        <hr class="mb-5">
+                        <p class="mb-5">Un système de gestion de base de données est installé sur un système afin de permettre une gestion optimale des ensembles de données. Il existe différents modèles de bases de données qui se distinguent principalement par la structuration des données. Ainsi le choix d’un SGBD implique donc toujours le choix définitif d’un modèle de base de données.</p> 
+                        <a href="about.html" class="btn btn-primary">Continuer sur les BASES DE DONNEES...</a>                       
+                    </section>
+                    <section class="tm-content">
+                        <h2 class="mb-5 tm-content-title">Les differents SGBD</h2>
+                        <p class="mb-5">les SGBD les plus populaires et les plus courants sont :</p>
+                        <ul>Relationnels</ul>
+                        <li>Microsoft Access </li> 
+                        <li> Microsoft SQL Server </li>
+                        <li>MySQL </li>
+                        <li>Oracle Database </li>
+                        <li>Db2 (IBM) </li>
+                        <li>IBM Informix</li>
+                        <li>MariaDB</li>
+                        <li>Sybase ASE</li>
+                        <li>Firebird</li>
+                        <hr class="mb-5">
+                        <ul>Relationnels et objets(mélange des approches relationnelle et objet)</ul>
+                        <li>PostgreSQL</li>
+                        <li> InterSystems Caché</li>
+                        <li>InterSystems IRIS</li>
+                        <hr class="mb-5">
+                        <ul>orienté documents</ul>
+                        <li>OrientDB</li> 
+                        <li>CouchDB</li> 
+                        <li>MongoDB</li>
+                        <hr class="mb-5">
+                        <ul>Hiérachique</ul>
+                        <li>IMS (IBM) – hiérarchique</li>
+                    </section>
+                    <section class="tm-content">
+                        <h2 class="mb-5 tm-content-title">Avantages et inconvenients d'une SGBD</h2>
+                        <p class="mb-5">Les systèmes de gestion de base de données sont fondamentaux dans les bases de données et se démarquent par différents avantages et points forts. Mais comme tous les autres logiciels, les SGBD ont également des faiblesses comme le montre la liste d’avantages et d’inconvénients suivante.</p>
+                    <ul>Avantages</ul>
+                        <li>une gestion simple des grands ensembles de données</li>
+                        <li>un accès simple et efficace aux données enregistrées</li>
+                        <li>une grande flexibilité</li>
+                        <li>l’intégrité et la cohérence des données</li>
+                        <li>le contrôle des accès pour les utilisateurs (sécurité et protection des données)</li>
+                        <li>une disponibilité élevée</li>
+                        <hr class="mb-5">
+                    <ul>Inconvenients</ul> 
+                        <li>un investissement de départ relativement plus coûteux (incluant les coûts supplémentaires pour le matériel)</li>
+                        <li>plutôt moins efficace pour les logiciels spéciaux</li>
+                        <li>nécessite des employés qualifiés (administrateurs de bases de données)</li>
+                        <li>une vulnérabilité importante du fait de la centralisation des données </li>                     
+                        
+                    </section>
+                </main>
+            </div>
+        </div>        
+
+        <div class="tm-row">
+            <div class="tm-col-left text-center">            
+                <ul class="tm-bg-controls-wrapper">
+                    <li class="tm-bg-control active" data-id="0"></li>
+                    <li class="tm-bg-control" data-id="1"></li>
+                    <li class="tm-bg-control" data-id="2"></li>
+                </ul>            
+            </div>        
+            <div class="tm-col-right tm-col-footer">
+                <footer class="tm-site-footer text-right">
+                    <p class="mb-0">Copyright KMAG by AK.
+                    
+                <a rel="nofollow" target="_parent" href="https://www.linkedin.com/in/mallah-annick-ghislaine-kadiane-880448131/" class="tm-text-link">linkedin</a></p>
+                </footer>
+            </div>  
+        </div>
+
+        <!-- Diagonal background design -->
+        <div class="tm-bg">
+            <div class="tm-bg-left"></div>
+            <div class="tm-bg-right"></div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>
